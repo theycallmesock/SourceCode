@@ -1,0 +1,52 @@
+<Window x:Class="WinOptPro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WinOptPro - Windows Optimization" Height="650" Width="900"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10">
+            <TextBlock x:Name="LanguageLabel" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <ComboBox x:Name="LanguageSelector" Width="140" SelectionChanged="LanguageSelector_SelectionChanged"/>
+        </StackPanel>
+
+        <!-- Scripts list -->
+        <GroupBox x:Name="GroupTweaks" Grid.Row="1" Margin="0,0,0,8">
+            <ScrollViewer>
+                <ItemsControl x:Name="ScriptsList">
+                    <!-- ItemsControl will be populated in code-behind -->
+                </ItemsControl>
+            </ScrollViewer>
+        </GroupBox>
+
+        <!-- Output -->
+        <GroupBox x:Name="GroupOutput" Grid.Row="2" Margin="0,0,0,8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Margin="4">
+                    <Button x:Name="RunButton" Click="RunButton_Click" Width="160" Margin="0,0,8,0">Run Selected</Button>
+                    <Button x:Name="RunAllButton" Click="RunAllButton_Click" Width="160" Margin="0,0,8,0">Run All</Button>
+                    <Button x:Name="RestoreButton" Click="RestoreButton_Click" Width="160" Margin="0,0,8,0">Restore Selected</Button>
+                    <Button x:Name="OpenLogsButton" Click="OpenLogsButton_Click" Width="120">Open Logs</Button>
+                </StackPanel>
+
+                <TextBox x:Name="OutputBox" Grid.Row="1" FontFamily="Consolas" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" IsReadOnly="True" TextWrapping="Wrap" Margin="4"/>
+            </Grid>
+        </GroupBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+            <ProgressBar x:Name="Progress" Height="18" VerticalAlignment="Center" Minimum="0" Maximum="100" Value="0" Margin="0,0,8,0" Width="600"/>
+            <TextBlock x:Name="StatusText" VerticalAlignment="Center" Foreground="#333"/>
+        </StackPanel>
+    </Grid>
+</Window>

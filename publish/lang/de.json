@@ -1,0 +1,19 @@
+{
+  "app_title": "WinOptPro - Windows-Optimierung",
+  "label_language": "Sprache:",
+  "group_available_tweaks": "Verfügbare Anpassungen",
+  "group_output": "Konsole / Protokollausgabe",
+  "btn_run_selected": "Ausgewählte Anpassungen ausführen",
+  "btn_run_all": "Alle Anpassungen ausführen",
+  "btn_restore_selected": "Ausgewählte wiederherstellen (rückgängig)",
+  "btn_open_logs": "Protokollordner öffnen",
+  "msg_no_selection": "Keine Anpassungen ausgewählt.",
+  "msg_not_admin": "Die App läuft nicht als Administrator. Einige Anpassungen können fehlschlagen. Fortfahren?",
+  "msg_warning": "Warnung",
+  "msg_confirm_run": "Ausgewählte Anpassungen ausführen? Dies wird lokale PowerShell-Skripte ausführen.",
+  "msg_confirm_run_all": "ALLE verfügbaren Anpassungen ausführen? Dies wird lokale PowerShell-Skripte ausführen.",
+  "msg_confirm_restore": "Rückgängigmachungs-Skripte für ausgewählte Anpassungen ausführen?",
+  "msg_confirm": "Bestätigen",
+  "msg_no_undo": "Keine Rückgängigmachungs-Skripte für ausgewählte Anpassungen gefunden.",
+  "msg_done": "Fertig"
+}

@@ -1,0 +1,19 @@
+{
+  "app_title": "WinOptPro - Optimisation Windows",
+  "label_language": "Langue:",
+  "group_available_tweaks": "Ajustements disponibles",
+  "group_output": "Console / Journal",
+  "btn_run_selected": "Exécuter les ajustements sélectionnés",
+  "btn_run_all": "Exécuter tous les ajustements",
+  "btn_restore_selected": "Restaurer sélectionnés (annuler)",
+  "btn_open_logs": "Ouvrir le dossier des journaux",
+  "msg_no_selection": "Aucun ajustement sélectionné.",
+  "msg_not_admin": "L'application n'est pas exécutée en tant qu'administrateur. Certains ajustements peuvent échouer. Continuer ?",
+  "msg_warning": "Attention",
+  "msg_confirm_run": "Exécuter les ajustements sélectionnés ? Cela exécutera des scripts PowerShell locaux.",
+  "msg_confirm_run_all": "Exécuter TOUS les ajustements disponibles ? Cela exécutera des scripts PowerShell locaux.",
+  "msg_confirm_restore": "Exécuter les scripts d'annulation pour les ajustements sélectionnés ?",
+  "msg_confirm": "Confirmer",
+  "msg_no_undo": "Aucun script d'annulation trouvé pour les ajustements sélectionnés.",
+  "msg_done": "Terminé"
+}

@@ -1,0 +1,19 @@
+{
+  "app_title": "WinOptPro - Otimização do Windows",
+  "label_language": "Idioma:",
+  "group_available_tweaks": "Ajustes disponíveis",
+  "group_output": "Console / Registro",
+  "btn_run_selected": "Executar ajustes selecionados",
+  "btn_run_all": "Executar todos os ajustes",
+  "btn_restore_selected": "Restaurar selecionados (desfazer)",
+  "btn_open_logs": "Abrir pasta de logs",
+  "msg_no_selection": "Nenhum ajuste selecionado.",
+  "msg_not_admin": "O aplicativo não está sendo executado como administrador. Alguns ajustes podem falhar. Continuar?",
+  "msg_warning": "Aviso",
+  "msg_confirm_run": "Executar ajustes selecionados? Isso executará scripts PowerShell locais.",
+  "msg_confirm_run_all": "Executar TODOS os ajustes disponíveis? Isso executará scripts PowerShell locais.",
+  "msg_confirm_restore": "Executar scripts de desfazer para os ajustes selecionados?",
+  "msg_confirm": "Confirmar",
+  "msg_no_undo": "Nenhum script de desfazer encontrado para os ajustes selecionados.",
+  "msg_done": "Concluído"
+}

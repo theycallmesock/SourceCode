@@ -1,0 +1,19 @@
+{
+  "app_title": "WinOptPro - Windows Optimization",
+  "label_language": "Language:",
+  "group_available_tweaks": "Available Tweaks",
+  "group_output": "Console / Log Output",
+  "btn_run_selected": "Run Selected Tweaks",
+  "btn_run_all": "Run All Tweaks",
+  "btn_restore_selected": "Restore Selected (undo)",
+  "btn_open_logs": "Open Logs Folder",
+  "msg_no_selection": "No tweaks selected.",
+  "msg_not_admin": "App is not running as administrator. Some tweaks may fail. Continue?",
+  "msg_warning": "Warning",
+  "msg_confirm_run": "Run selected tweaks? This will execute local PowerShell scripts.",
+  "msg_confirm_run_all": "Run ALL available tweaks? This will execute local PowerShell scripts.",
+  "msg_confirm_restore": "Run undo scripts for selected tweaks?",
+  "msg_confirm": "Confirm",
+  "msg_no_undo": "No undo scripts found for selected tweaks.",
+  "msg_done": "Done"
+}
